@@ -1,8 +1,7 @@
 /* globals require, console */
 'use strict';
 
-
-var api = require('..');
+var api = require('.');
 var express = require('express');
 var app = express();
 
