@@ -13,7 +13,7 @@ var cb = function(){
 };
 
 var options = {
-	path: 'test/raml',
+	path: 'spec/raml',
 	debug: true,
 	watch: true,
 	app: app,
@@ -21,7 +21,6 @@ var options = {
 };
 
 var watcher = api(options, cb);
-
 
 console.log('Listening on port 3000');
 var server = app.listen(3000);

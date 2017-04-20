@@ -1,7 +1,7 @@
 # raml-mocker-server
+Fork of raml-mocker-server designed to add platform specific functionality.
+
 Node module to run server mocking API described in RAML files
-
-
 
 Objective
 ---
@@ -28,12 +28,14 @@ var callback = function (app){
 var server = api(options, callback);
 ```
 
-* [test/testApp.js](test/testApp.js)
+Tests
+---
+We're writing tests at an e2e level (due to the small size of the project.) Tests can be run with
+```bash
+npm test
+```
 
-Add API to existing web server:
-
-* [test/testAppExpress.js](test/testAppExpress.js)
-
+If you would like to add more you can add endpoints in the spec/raml/ directory (it will pick up all files even if we only have one currently) and add an associated unit tests in a *.spec.js file
 
 
 Options

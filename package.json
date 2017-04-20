@@ -1,10 +1,10 @@
 {
   "name": "raml-mocker-server",
-  "version": "0.1.6",
+  "version": "0.2.0",
   "description": "Node module to run server mocking API described in RAML files",
   "main": "index.js",
   "scripts": {
-    "test": "node test/testApp.js"
+    "test": "jasmine"
   },
   "repository": {
     "type": "git",
@@ -20,6 +20,9 @@
     "API"
   ],
   "author": "Dmitry Smirnov (dmitri.smirnov@gmail.com)",
+  "contributors": [
+    "David Simons <david@swamwithturtles.com> (http://www.swamwithturtles.com)"
+  ],
   "license": "MIT",
   "dependencies": {
     "chokidar": "^0.12.6",
@@ -29,6 +32,10 @@
     "raml-mocker": "^0.2.0"
   },
   "devDependencies": {
-    "q": "^1.1.2"
+    "jasmine": "^2.5.3",
+    "jasmine-expect": "^3.7.0",
+    "q": "^1.1.2",
+    "request": "^2.81.0",
+    "valid-url": "^1.0.9"
   }
 }

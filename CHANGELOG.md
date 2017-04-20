@@ -1,5 +1,9 @@
 ## Changelog
 
+### v 0.2.0 (2017-04-20)
+* Inheritance of project from raml-mocker-server
+* Moving of testing framework to Jasmine and addition of specific assertions
+
 ### v 0.1.5 (2015-12-21)
 * Add Content-Type: application/json header for response
 
@@ -16,4 +20,3 @@
 * update dependencies
 * prefix could be an array
 * update tests
-
